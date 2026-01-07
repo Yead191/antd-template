@@ -7,7 +7,6 @@ import { Drawer, ConfigProvider } from "antd";
 import { usePathname } from "next/navigation";
 import navItems from "@/constants/navItem";
 
-import "aos/dist/aos.css";
 export default function Navbar() {
   const pathname = usePathname();
   const [drawerOpen, setDrawerOpen] = useState(false);
